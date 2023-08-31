@@ -4,10 +4,10 @@ import 'package:ba_gana_mas/presentation/screens/test.dart';
 import 'package:go_router/go_router.dart';
 
 final appRouter = GoRouter(
-  initialLocation: '/',
+  initialLocation: '/test',
   routes: [
     GoRoute(
-      path: '/',
+      path: '/test',
       builder: (context, state) => const TestScreen()
     ),
     GoRoute(
