@@ -12,19 +12,6 @@ class MyApp extends StatelessWidget {
       routerConfig: appRouter,
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      // theme: ThemeData(
-      //   useMaterial3: true,
-      //   colorScheme: ColorScheme.fromSeed(
-      //     seedColor: primaryColor,
-      //     surface: whiteColor,
-      //     background: backgroundColor,
-      //   ),
-      //   fontFamily: 'Assistant',
-      //   appBarTheme: const AppBarTheme(
-      //     centerTitle: false,
-      //     iconTheme: IconThemeData(color: Color(0xFF061E4F)),
-      //   ),
-      // ),
     );
   }
 }
