@@ -12,6 +12,12 @@
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic="true">
+        
+        <!-- TODO: api-key-google -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCDvAaF2cW8CAfWu-Cen7oQ02po6q4VIbs" />
+
         <!-- <provider -->
         <!--     android:name="com.pichillilorenzo.flutter_inappwebview.InAppWebViewFileProvider" -->
         <!--     android:authorities="${applicationId}.flutter_inappwebview.fileprovider" -->
