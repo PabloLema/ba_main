@@ -32,15 +32,13 @@ dependencies:
     sdk: flutter
   ba_austro_gana:
     path: /Users/lema/projects/ba_austro_gana
-  flutter_gherkin: ^2.0.0
-  gherkin: ^2.0.8
-
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   go_router: ^10.1.0
   glob: ^2.1.2
+  geolocator_platform_interface: ^4.1.0
 
 dev_dependencies:
   flutter_test:
