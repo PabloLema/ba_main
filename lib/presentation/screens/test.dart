@@ -9,7 +9,8 @@ class TestScreen extends StatelessWidget {
       return Scaffold(
         body: Center(
           child: ElevatedButton(
-            onPressed: () => context.push('/entry'),
+            // onPressed: () => context.push('/entry'),
+            onPressed: () => context.push('/entry_home'),
             child: const Text('Austro Gana +'),
           ),
         )

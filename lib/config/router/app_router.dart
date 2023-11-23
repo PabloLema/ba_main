@@ -1,5 +1,6 @@
 import 'package:ba_austro_gana/entry_point.dart';
 import 'package:ba_gana_mas/presentation/screens/test.dart';
+import 'package:ba_gana_mas_home/entry_point.dart';
 
 import 'package:go_router/go_router.dart';
 
@@ -13,6 +14,10 @@ final appRouter = GoRouter(
     GoRoute(
       path: '/entry',
       builder: (context, state) => const EntryScreen(),
+    ),
+    GoRoute(
+      path: '/entry_home',
+      builder: (context, state) => const EntryPointScreen(),
     ),
   ],
 );
