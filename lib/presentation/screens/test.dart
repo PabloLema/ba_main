@@ -8,10 +8,19 @@ class TestScreen extends StatelessWidget {
     Widget build(BuildContext context) {
       return Scaffold(
         body: Center(
-          child: ElevatedButton(
-            onPressed: () => context.push('/entry'),
-            // onPressed: () => context.push('/entry_home'),
-            child: const Text('Austro Gana +'),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              ElevatedButton(
+                onPressed: () => context.push('/entry'),
+                // onPressed: () => context.push('/entry_home'),
+                child: const Text('Gana +'),
+              ),
+              ElevatedButton(
+                onPressed: () => context.push('/entry_home'),
+                child: const Text('Home Gana +'),
+              ),
+            ],
           ),
         )
       );
