@@ -36,21 +36,21 @@ packages:
   ba_app_widgets:
     dependency: transitive
     description:
-      path: "/home/lema/projects/ba/baappwidgets"
+      path: "/Users/lema/projects/ba_app_widgets"
       relative: false
     source: path
     version: "1.0.0+1"
   ba_austro_gana:
     dependency: "direct main"
     description:
-      path: "/home/lema/projects/ba/austro-gana"
+      path: "/Users/lema/projects/ba_austro_gana"
       relative: false
     source: path
     version: "1.0.0+1"
   ba_gana_mas_home:
     dependency: "direct main"
     description:
-      path: "/home/lema/projects/ba/austro-gana-home"
+      path: "/Users/lema/projects/ba_gana_mas_home"
       relative: false
     source: path
     version: "1.0.0+1"
