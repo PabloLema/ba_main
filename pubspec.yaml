@@ -31,11 +31,11 @@ dependencies:
   flutter:
     sdk: flutter
   ba_austro_gana:
-    path: /Users/lema/projects/ba_austro_gana
-    # path: /home/lema/projects/ba/austro-gana
+    # path: /Users/lema/projects/ba_austro_gana
+    path: /home/lema/projects/ba/austro-gana
   ba_gana_mas_home:
-    path: /Users/lema/projects/ba_gana_mas_home
-    # path: /home/lema/projects/ba/austro-gana-home
+    # path: /Users/lema/projects/ba_gana_mas_home
+    path: /home/lema/projects/ba/austro-gana-home
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
