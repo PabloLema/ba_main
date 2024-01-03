@@ -13,7 +13,7 @@ final appRouter = GoRouter(
     ),
     GoRoute(
       path: '/entry',
-      builder: (context, state) => const EntryScreen(),
+      builder: (context, state) => EntryScreen(),
     ),
     GoRoute(
       path: '/entry_home',
