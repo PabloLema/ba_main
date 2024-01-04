@@ -43,7 +43,6 @@ dependencies:
   go_router: ^10.1.0
   glob: ^2.1.2
   geolocator_platform_interface: ^4.1.0
-  flutter_downloader: ^1.11.6
 
 dev_dependencies:
   flutter_test:
