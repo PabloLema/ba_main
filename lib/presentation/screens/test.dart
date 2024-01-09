@@ -16,10 +16,10 @@ class TestScreen extends StatelessWidget {
                 // onPressed: () => context.push('/entry_home'),
                 child: const Text('Gana +'),
               ),
-              ElevatedButton(
-                onPressed: () => context.push('/entry_home'),
-                child: const Text('Home Gana +'),
-              ),
+              // ElevatedButton(
+              //   onPressed: () => context.push('/entry_home'),
+              //   child: const Text('Home Gana +'),
+              // ),
             ],
           ),
         )
