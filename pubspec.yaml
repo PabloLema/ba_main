@@ -30,11 +30,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  ba_austro_gana:
-    path: /Users/lema/projects/ba_austro_gana
+  # ba_austro_gana:
+  #   path: /Users/lema/projects/ba_austro_gana
     # path: /home/lema/projects/ba/austro-gana
-  # ba_gana_mas_home:
-    # path: /Users/lema/projects/ba_gana_mas_home
+  ba_gana_mas_home:
+    path: /Users/lema/projects/ba_gana_mas_home
     # path: /home/lema/projects/ba/austro-gana-home
 
   # The following adds the Cupertino Icons font to your application.

@@ -11,15 +11,15 @@ class TestScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              ElevatedButton(
-                onPressed: () => context.push('/entry'),
-                // onPressed: () => context.push('/entry_home'),
-                child: const Text('Gana +'),
-              ),
               // ElevatedButton(
-              //   onPressed: () => context.push('/entry_home'),
-              //   child: const Text('Home Gana +'),
+              //   onPressed: () => context.push('/entry'),
+              //   // onPressed: () => context.push('/entry_home'),
+              //   child: const Text('Gana +'),
               // ),
+              ElevatedButton(
+                onPressed: () => context.push('/entry_home'),
+                child: const Text('Home Gana +'),
+              ),
             ],
           ),
         )
