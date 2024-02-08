@@ -30,12 +30,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # ba_austro_gana:
-  #   path: /Users/lema/projects/ba_austro_gana
+  ba_austro_gana:
+    path: /Users/lema/projects/ba_austro_gana
     # path: /home/lema/projects/ba/austro-gana
-  ba_gana_mas_home:
-    path:
-      ../ba_gana_mas_home
+  # ba_gana_mas_home:
+  #   path:
+  #     ../ba_gana_mas_home
     # git:
     #   url: https://gitlabce.austro.grpfin/ba010006e0/austro-gana-home
     #   ref: dev-us
